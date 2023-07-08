@@ -1,0 +1,174 @@
+
+body {
+    font-family: serif;
+    font-size: 1em;
+    /* overflow: hidden; */
+    background-color:#78C0E0;
+}
+
+.container {
+    
+	padding-left: 1.1625%;
+	padding-right: 1.1625%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+    margin-right: auto;
+    }   
+
+
+
+.intro_img {
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+}
+
+.intro_greeting {
+    text-align: center;
+}
+
+.intro_text {
+    text-align: center;
+}
+
+#nav_links {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: x-large;
+    width: 100%;
+    background-color: #449DD1;
+    overflow: auto;
+    border: 1px solid black;
+    border-radius: 1rem;
+    
+}
+
+#nav_links a {
+    padding: 12px;
+    color: black;
+    width: 33.33%;
+    text-decoration: none;
+}
+
+#nav_links a:hover {
+    background-color: lightskyblue;
+}
+
+.contact_section {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+}
+
+.contact_section a:hover {
+    background-color: lightskyblue;
+}
+
+.footer_content {
+    text-align: center;
+    background-color: #449DD1;   
+   
+}
+.email_link {
+    padding: 4px;
+    text-decoration: none;
+    color: black;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+.verteran_container{
+    text-align: center;
+}
+.aboutme_container{
+    padding-left: 1.1625%;
+	padding-right: 1.1625%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+    margin-right: auto;
+}
+.aboutme_img {
+    width: 10%;
+    height: 10%;
+}
+
+.travel_img {
+    width: 10%;
+    height: 10%;
+    padding: 15px;
+}
+
+
+.travel_container {
+    text-align: center;
+}
+.list {
+    list-style-type: none;
+    margin-bottom: 4rem;
+}
+.about_text {
+    text-align: center;
+}
+.hobbie_container {
+    text-align: center;
+}
+
+.hobbie_img {
+    width: 10%;
+    height: 10%;
+    padding: 15px;
+}
+
+.experience_text {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 16rem;
+    margin-bottom: 10rem;
+    
+}
+
+.contact a:hover {
+    background-color: lightskyblue;
+}
+
+.form_container {
+    background-color: #449DD1;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    margin-left: 25%;
+   
+}
+
+input[type=text], textarea {
+    resize: vertical;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid lightskyblue;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: #449DD1;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: lightskyblue;
+  }
